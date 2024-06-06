@@ -1,4 +1,4 @@
-package com.example.horrorhub
+package com.logiclabs.horrorhub
 
 import io.flutter.embedding.android.FlutterActivity
 

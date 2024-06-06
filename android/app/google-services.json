@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "348279728188",
+    "project_id": "horrorhub-c1fe7",
+    "storage_bucket": "horrorhub-c1fe7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348279728188:android:85bf0f9f80adfdd71cfb39",
+        "android_client_info": {
+          "package_name": "com.logiclabs.horrohub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKEmGSUhyv7Pn3hbXsI_Yf9YcQCavUpPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348279728188:android:5af5c2eeed5ed48c1cfb39",
+        "android_client_info": {
+          "package_name": "com.logiclabs.horrorhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKEmGSUhyv7Pn3hbXsI_Yf9YcQCavUpPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
