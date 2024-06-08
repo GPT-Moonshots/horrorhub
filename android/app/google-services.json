@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "348279728188",
+    "project_id": "horrorhub-c1fe7",
+    "storage_bucket": "horrorhub-c1fe7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348279728188:android:1296fd1bfb289c961cfb39",
+        "android_client_info": {
+          "package_name": "com.logiclab.horrorhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348279728188-1n7v117s2qahvpag1huc444vk89tsla1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.logiclab.horrorhub",
+            "certificate_hash": "efa96c7ec105e7574d415f5fdc0b25dbc48e8cdd"
+          }
+        },
+        {
+          "client_id": "348279728188-mu1tr4p32mvf8ljdqhtrja62gnhqirv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.logiclab.horrorhub",
+            "certificate_hash": "c0e997d86efb5ead2f38a082c6d1ac81699365be"
+          }
+        },
+        {
+          "client_id": "348279728188-7pu1764bvne744sjg3f2htvsjj4htrv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKEmGSUhyv7Pn3hbXsI_Yf9YcQCavUpPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348279728188-7pu1764bvne744sjg3f2htvsjj4htrv6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "348279728188-v0p0gjmfomc6jcinpc7nivnpvm8bmmjq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.logiclabs.horrorhub"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
