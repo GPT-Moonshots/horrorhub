@@ -57,6 +57,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
+  cloud_firestore:
+    dependency: "direct main"
+    description:
+      name: cloud_firestore
+      sha256: f5b12f4e2e3f6b38f86a88225e564ed7f7d141b85a237576fa88952e662e8ef1
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.0"
+  cloud_firestore_platform_interface:
+    dependency: transitive
+    description:
+      name: cloud_firestore_platform_interface
+      sha256: "8f9ae1d13e47cc151f6e9626ccb8b809c406cb1aab801f46e65a902d5a32f2ab"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.2.6"
+  cloud_firestore_web:
+    dependency: transitive
+    description:
+      name: cloud_firestore_web
+      sha256: e0fb0e497f03faf83445a84442ada60f97515f5e59e6dd9558ff96ceceb29461
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.0"
   collection:
     dependency: transitive
     description:
@@ -81,6 +105,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.8"
+  drop_down_search_field:
+    dependency: "direct main"
+    description:
+      name: drop_down_search_field
+      sha256: eee189b41adb52a81b54ad826b3c9ee24c5db3f45194130633721fdbd358b393
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.4"
   equatable:
     dependency: transitive
     description:
@@ -153,11 +185,51 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.17.1"
+  firebase_messaging:
+    dependency: "direct main"
+    description:
+      name: firebase_messaging
+      sha256: "62fb18daf69ee5f65c0ea5ef4c611481ec50584f54a9d7bcb2de511ad821b45d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "15.0.0"
+  firebase_messaging_platform_interface:
+    dependency: transitive
+    description:
+      name: firebase_messaging_platform_interface
+      sha256: aec6972698a5f70557b44946923d6be2c0cda127b60b462a1b1f7f08a8a325a5
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.5.38"
+  firebase_messaging_web:
+    dependency: transitive
+    description:
+      name: firebase_messaging_web
+      sha256: "17979bda5f4474b76c069d547294955e775e3c4484ae80f621a06aa27f5ac5d8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.8.8"
   flutter:
     dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_dotenv:
+    dependency: "direct main"
+    description:
+      name: flutter_dotenv
+      sha256: "9357883bdd153ab78cbf9ffa07656e336b8bbb2b5a3ca596b0b27e119f7c7d77"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.0"
+  flutter_expanded_tile:
+    dependency: "direct main"
+    description:
+      name: flutter_expanded_tile
+      sha256: "106e992ca20e168adc18ffeac8fbbc7ee84db62b670cc288d67132153114e035"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.7"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -297,7 +369,7 @@ packages:
     source: hosted
     version: "0.12.4"
   http:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: http
       sha256: "761a297c042deedc1ffbb156d6e2af13886bb305c2a343a4d972504cd67dd938"
@@ -408,6 +480,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.14.0"
+  mime:
+    dependency: transitive
+    description:
+      name: mime
+      sha256: "2e123074287cc9fd6c09de8336dae606d1ddb88d9ac47358826db698c176a1f2"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.5"
   nested:
     dependency: transitive
     description:
@@ -496,6 +576,38 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.8"
+  pointer_interceptor:
+    dependency: transitive
+    description:
+      name: pointer_interceptor
+      sha256: d0a8e660d1204eaec5bd34b34cc92174690e076d2e4f893d9d68c486a13b07c4
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.10.1+1"
+  pointer_interceptor_ios:
+    dependency: transitive
+    description:
+      name: pointer_interceptor_ios
+      sha256: a6906772b3205b42c44614fcea28f818b1e5fdad73a4ca742a7bd49818d9c917
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.10.1"
+  pointer_interceptor_platform_interface:
+    dependency: transitive
+    description:
+      name: pointer_interceptor_platform_interface
+      sha256: "0597b0560e14354baeb23f8375cd612e8bd4841bf8306ecb71fcd0bb78552506"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.10.0+1"
+  pointer_interceptor_web:
+    dependency: transitive
+    description:
+      name: pointer_interceptor_web
+      sha256: a6237528b46c411d8d55cdfad8fcb3269fc4cbb26060b14bff94879165887d1e
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.10.2"
   provider:
     dependency: transitive
     description:
@@ -512,6 +624,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.2.1"
+  share:
+    dependency: "direct main"
+    description:
+      name: share
+      sha256: "97e6403f564ed1051a01534c2fc919cb6e40ea55e60a18ec23cee6e0ce19f4be"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.4"
   sign_in_button:
     dependency: transitive
     description:

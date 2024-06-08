@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart' show timeDilation;
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_login/flutter_login.dart';
+import 'package:horrorhub/features/HomePage/home_page.dart';
 
 import 'package:horrorhub/services/auth.dart';
 import 'package:horrorhub/services/o_auth.dart';
@@ -56,11 +58,14 @@ class LoginScreen extends StatelessWidget {
           label: 'Google',
           callback: () async {
             String? authSuccessfull = await OauthService.signInWithGoogle();
+
             if (authSuccessfull == null) {
+              FlutterSecureStorage storage = const FlutterSecureStorage();
+              String? uid = await storage.read(key: 'uid');
               Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => const Placeholder()),
+                    builder: (context) => MyHomePage(uid: uid!)),
               );
               return null;
             } else {
@@ -74,10 +79,12 @@ class LoginScreen extends StatelessWidget {
           callback: () async {
             String? authSuccessfull = await OauthService.signInWithApple();
             if (authSuccessfull == null) {
+              FlutterSecureStorage storage = const FlutterSecureStorage();
+              String? uid = await storage.read(key: 'uid');
               Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => const Placeholder()),
+                    builder: (context) => MyHomePage(uid: uid!)),
               );
               return null;
             } else {
@@ -105,9 +112,11 @@ class LoginScreen extends StatelessWidget {
         return _signupUser(signupData);
       },
       onSubmitAnimationCompleted: () async {
+        FlutterSecureStorage storage = const FlutterSecureStorage();
+        String? uid = await storage.read(key: 'uid');
         Navigator.of(context).pushReplacement(
           FadePageRoute(
-            builder: (context) => Placeholder(),
+            builder: (context) => MyHomePage(uid: uid!),
           ),
         );
       },
