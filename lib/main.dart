@@ -19,7 +19,7 @@ void main() async {
   String? uid = await storage.read(key: 'uid');
   dotenv.load(fileName: './dot.env');
   runApp(MaterialApp(
-    title: 'Love Verse',
+    title: 'Horror Hub',
     theme: myTheme,
     home: (uid == null)
         ? const LoginScreen()
