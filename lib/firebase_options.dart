@@ -63,6 +63,6 @@ class DefaultFirebaseOptions {
     messagingSenderId: '348279728188',
     projectId: 'horrorhub-c1fe7',
     storageBucket: 'horrorhub-c1fe7.appspot.com',
-    iosBundleId: 'com.logiclabs.horrorhub',
+    iosBundleId: 'com.logiclab.horrorhub',
   );
 }
